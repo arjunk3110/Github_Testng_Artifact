@@ -29,7 +29,7 @@ public class Assertion_Sel
         driver.get("https://www.ebay.com/");
         driver.manage().window().maximize();
         
-        String ExpectedTitle= "Electronics, Cars, Fashion, Collectibles & More | eBay";
+        String ExpectedTitle= "Electronics, Cars, Fashion, Collectibles & More | eBayoo";
 		String ActualTile=driver.getTitle();
 		
 		Assert.assertEquals(ActualTile, ExpectedTitle);
